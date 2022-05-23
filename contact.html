@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <title>Final Project</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+                @media screen and (max-width:376px) {
+            .cnone{
+                display: none;
+            }
+            .c100{
+                width: 100%;
+            }
+            .c33{
+                width: 33.3333333%;
+            }
+            .c50{
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:767px) {
+            .c100{
+                width: 100%;
+            }
+            .c33{
+                width: 33.3333333%;
+            }
+            .c50{
+                width: 50%;
+            }
+
+            
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+        .background{
+            background-color: #1F2833;
+        }
+        #formdiv{
+            height: 300px;
+            width: 600px;
+        }
+        .form{
+            text-align: center;
+            margin: auto;
+        }
+        .form label{
+            margin-right: 30px;
+            margin: auto;
+        }
+        .form li{
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+        input{
+            border-style: solid;
+            border-radius: 4px;
+            border-color: #66FCF1;
+        }
+        .submit{
+            width: 100px;
+            height: 40px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #66FCF1;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        .input{
+            display: block;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 25px;
+            font-size: 20px;
+        }
+        .submit:hover{
+            background-color: #66FCF1;
+            color:rgb(0, 0, 0);
+        }
+        .ediv{
+            background-color: rgb(73, 53, 53);
+            color: white;
+            width: 350px;
+            height: 300px;
+            margin-right: 30px;
+            text-align: center;
+            
+        }
+        .ediv p{
+            font-size: 12px;
+            bottom: 0;
+        }
+        .experience{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #himg{
+            width: 300px;
+            height: 400px;
+        }
+        #p1{
+            width: 500px;
+            margin-right: 40px;
+        }
+        #maindiv{
+            width: 1000px;
+            display: flex;
+
+        }
+    </style>
+</head>
+<body>
+    <header style="background-color: #1F2833;" class="header">
+        <img src="assets/img/waki_logo.png" class="logo c33">
+        <ul>
+            <li class="c33">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="c33">
+                <a class="contact" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </header>
+        <section style="width: 1000px; margin-right: auto; margin-left: auto; margin-top: 100px;">
+            <div class="c100" style="float: left; width: 900px; margin-left: auto; margin-bottom: auto; margin-top: 20px;">
+                <h1 style="font-size: 36px;">Who Are You??</h1>
+                <p id="p1" style="float: left; clear: left;">
+                    Thank you for taking the time to look at my web page. With that being said, if you would like to reach out to me, you can reach me
+                    at the following contact methods listed bellow. Or if you would like to submit a form listing, your name; number; and email; I will 
+                    reach out to you as quick as possible! 
+                </p>    
+            </div>
+            <img class="c100" id="himg" src="assets/img/businessman.jpg">
+        </section>
+    <section class="form c50" style="width: 1000px; margin-left: auto; margin-right: auto; margin-top: 40px;">
+        <div class="c50" id="formdiv" style="margin: auto;">
+            <ul>
+            <form id="form c50" class="form" action="/action_page.php">
+                <input class="input" type="text" id="name" name="name" placeholder="Name.."></li>
+                <input class="input" type="text" id="email" name="email" placeholder="Phone.."></li>
+                <input class="input" type="text" id="fname" name="firstname" placeholder="Email.."></li>
+            </form>
+            </ul>
+            <button style="cursor: pointer;" type="submit" class="submit">Contact Me!</button>
+        </div>
+    </section>
+    <section style="background-color: #0B0C10;" class="footer c100">
+        <div style="background-color: #0B0C10; margin-right: auto; margin-left: auto;">
+            <h4 style="background-color: #0B0C10;" style="text-align: center;">Follow Me!</h4>
+            <ul style="background-color: #0B0C10;">
+                <li style="background-color: #0B0C10; display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://www.instagram.com/elonmusk/" target="_blank">
+                        <img src="assets/img/instagram.png">                  
+                    </a>
+                    </li>
+                <li style="background-color: #0B0C10; display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://twitter.com/?lang=en" target="_blank">
+                        <img src="assets/img/twitter.png">                  
+                    </a>
+                    </li>
+                <li style="display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://www.linkedin.com/" target="_blank">
+                        <img src="assets/img/linkedin.png">                  
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>

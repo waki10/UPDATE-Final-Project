@@ -1,0 +1,155 @@
+#bodysection1 h1 {
+    font-family: 'Kaushan Script', cursive;
+
+}
+@media (max-width: 375px) {
+    section {
+        max-width: 100%;
+        margin: auto;
+    }
+    .logo {
+        max-width: 100%;
+        display: none;
+    }
+    header img {
+        max-width: 100%;
+    }
+    #img1{
+        display: none;
+    }
+    #imgcont{
+        display: none;
+    }
+    #p2{
+        width: auto;
+    }
+    #whoami{
+        display: none;
+    }
+    #himg{
+        display:none;
+    }
+}
+@media (max-width: 770px) {
+    section {
+        max-width: 100%;
+        margin: auto;
+    }
+    .logo {
+        max-width: 100%;
+    }
+    header img {
+        max-width: 100%;
+    }
+    #img1{
+        display: none;
+    }
+    #imgcont{
+        display: none;
+    }
+    #p2{
+        width: auto;
+    }
+    #himg{
+        display:none;
+    }
+}
+.header a {
+    font-family: 'Oswald', sans-serif;
+}
+img{
+    max-width: 100%;
+    width: auto;
+}
+.footer img{
+    background-color:#0B0C10;
+    width: 40px;
+    margin: auto;
+}
+.footer li{
+    margin-right: 30px;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: #1F2833;
+    max-width: 100%;
+}
+.logo{
+    width: 230px;
+    margin-left: 100px;
+}
+
+#img1{
+    width: 500px;
+    margin-right: 300px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.header li{
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    padding-top: 30px;
+    font-size: 20px;
+    animation-name: dropdown;
+    animation-duration: 1s;
+    transition: all 1s ease-in-out;
+}
+.contact{
+    border-radius: 4px;
+    border-color: #66FCF1;
+    border-style: solid;
+    border-width: 3px;
+    padding: 5px;
+}
+.contact:hover {
+    background-color: #66FCF1;
+    color:rgb(0, 0, 0);
+}
+#p1{
+    width: 500px;
+}
+section{
+  display: flex;
+}
+.footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px; 
+    background-color: #0B0C10;
+}
+.skillimg{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-right: 50px;
+
+}
+@keyframes animation {
+    from {
+        opacity: .2;
+        transform: scale(.8, .8);
+        }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+        }
+}
+@keyframes dropdown{
+    from {
+        opacity: .1;
+        transform: translateY(0%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(50%)
+    }
+}

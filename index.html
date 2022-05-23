@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Koulen&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+        @keyframes animation {
+            from {
+                opacity: .2;
+                transform: scale(.8, .8);
+                }
+            to {
+                opacity: 1;
+                transform: scale(1, 1);
+                }
+        }
+        @keyframes dropdown{
+            from {
+                opacity: .1;
+                transform: translateY(-50%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0%)
+            }
+        }
+        #bodysection1{
+            width: 1000px;
+            margin-top: 100px;
+        }
+
+        #bodysection2{
+            width: 1000px;
+            margin-top: 100px;
+        }
+        .bodysection{
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .footer {
+            padding-top: 20px;
+        }
+        #contact_link{
+            border-style: solid;
+            border-radius: 6px;
+            border-width: 2px;
+            padding: 5px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        #contact_link a:hover{
+            color: #1F2833;
+            background-color: #66FCF1;
+            transition: all 1s ease-in-out;
+        }
+        #headerh1{
+            animation-duration: 1.2s;
+            animation-name: animation;
+            transition: all ease-in-out;
+        }
+        .cont{
+            display: flex;
+            flex: wrap;
+            max-width: 950px;
+            margin: 60px auto;
+        }
+        .cont50{
+            width: 50%;
+        }
+        .cont100{
+            width: 100%;
+        }
+
+
+    </style>
+</head>
+<body>
+        <header style="background-color: #1F2833" class="header">
+            <img src="assets/img/waki_logo.png" class="logo">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="contact" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </header>
+    <section class="bodysection cont100" id="bodysection1">
+        <div style="margin-right: 100px;">
+            <h1 id="headerh1" style="font-size: 50px;">Hello, My Name is Joaquin!</h1>
+            <p class="p" id="p1">
+                Welcome to my personal page. Learn a little bit about me!  
+            </p>
+            <a id="contact_link" href="contact.html#form">Contact Form ></a>
+        </div>
+        <img src="assets/img/waki_face.png" class="bodyimg cnone" id="img1">
+    </section>
+    <section class="bodysection" id="bodysection2" style="padding-right: 300px;" >
+        <img id="imgcont" src="assets/img/businessman.jpg" style="width: 500px; padding-right: 00px;">
+        <div class="cont100" id="whoami" style="width: 1000px; margin-left: 200px; padding-right: 400px;">
+            <h3 style="font-size: 28px;">Who am I?</h3>
+            <p  style="width: 400px;" class="p" id="p2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </section >
+    <section style="padding-top: 150px;" class="bodysection" id="bodysection3">
+        <div class="cont00" style="text-align: center; margin-left: auto; margin-right: auto; height: 100px;">
+            <h2>My Skills</h2>
+            <p style="width: 500px;" class="p" id="p3">
+                A list of skills I have added to my belt and currently working on. 
+            </p>
+        </div>
+    </section>
+    <div style="text-align: center; margin-left: auto; margin-right: auto;">
+        <img class="skillimg cont100" src="assets/img/businessman.jpg" style="margin-left: auto; margin-right: auto; width:300px;">
+        <img class="skillimg cont100" src="assets/img/businessman.jpg" style="margin-left: auto; margin-right: auto; width:300px;">
+        <img class="skillimg cont100" src="assets/img/businessman.jpg" style="margin-left: auto; margin-right: auto; width:300px;">
+    </div>
+    <section class="footer cont100">
+        <div style="background-color: #0B0C10; margin-right: auto; margin-left: auto;">
+            <p style="background-color: #0B0C10; text-align: center; font-size: 18px;">Follow Me!</p>
+            <ul style="background-color: #0B0C10;">
+                <li style="background-color: #0B0C10; display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://www.instagram.com/elonmusk/" target="_blank">
+                        <img src="assets/img/instagram.png">                  
+                    </a>
+                    </li>
+                <li style="background-color: #0B0C10; display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://twitter.com/?lang=en" target="_blank">
+                        <img src="assets/img/twitter.png">                  
+                    </a>
+                    </li>
+                <li style="background-color: #0B0C10; display: inline-block;">
+                    <a style="background-color: #0B0C10;" href="https://www.linkedin.com/" target="_blank">
+                        <img src="assets/img/linkedin.png">                  
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
